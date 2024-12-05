@@ -1,13 +1,10 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "DSCI 310: Historical Horse Population in Canada"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+
 
 format:
   html:
